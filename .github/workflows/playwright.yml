@@ -5,9 +5,7 @@ on:
   # Triggers the workflow on push or pull request and nightly
   push:
   pull_request:
-  schedule: 
-    # nightly
-    - cron: '0 0 * * *'
+
 
 jobs:
   playwright_tests:
